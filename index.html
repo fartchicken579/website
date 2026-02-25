@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANTA — Your AI coach for momentum.</title>
+  <meta name="description" content="VANTA is your AI motivation coach, accountability partner, and personal mentor for focus, consistency, and momentum." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-layer">
+    <div class="gradient-wave"></div>
+    <div class="grid-overlay"></div>
+    <div class="bloom bloom-a"></div>
+    <div class="bloom bloom-b"></div>
+    <div class="orb-core"></div>
+    <div id="particles"></div>
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="brand">VANTA</div>
+    <nav>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#features">Features</a>
+      <a href="#results">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#demo">Demo</a>
+      <a href="#">Sign In</a>
+    </nav>
+    <a class="btn btn-primary" href="#pricing">Get Started</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero reveal" id="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Your AI coach for momentum.</p>
+        <h1>Stop waiting to feel motivated.<br />Build momentum on command.</h1>
+        <p class="subheadline">VANTA is your AI motivation coach, accountability partner, and personal mentor—designed to keep you focused, consistent, and moving forward every day.</p>
+        <div class="cta-row">
+          <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+          <a href="#demo" class="btn btn-secondary">Watch Product Demo</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>94%</strong><span>daily check-in adherence</span></div>
+          <div><strong>3.8x</strong><span>avg consistency growth</span></div>
+          <div><strong>+19</strong><span>focus sessions / week</span></div>
+        </div>
+      </div>
+      <div class="hero-visual floating">
+        <div class="mockup-panel main-panel">
+          <div class="panel-header">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <p>VANTA Coach Console</p>
+          </div>
+          <div class="goal-row"><span>Daily Goals</span><strong>4 / 5 complete</strong></div>
+          <div class="progress"><div style="width: 80%"></div></div>
+          <div class="cards-row">
+            <div class="mini-card">
+              <p>Streak</p><strong>22 days</strong>
+            </div>
+            <div class="mini-card">
+              <p>Focus</p><strong>73 min</strong>
+            </div>
+          </div>
+          <div class="chat-bubble ai">You're 80% through your core targets. Start a 25-min focus sprint to finish strong.</div>
+          <div class="chat-bubble user">Start sprint + lock distractions.</div>
+          <div class="focus-controls">
+            <button>25m Deep Focus</button>
+            <button>50m Strategic Block</button>
+          </div>
+        </div>
+        <div class="mockup-panel side-panel">
+          <p>AI Check-in</p>
+          <h3>What are you avoiding right now?</h3>
+          <small>I can break it into one immediate action.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="how reveal" id="how-it-works">
+      <h2>How VANTA turns intention into execution</h2>
+      <div class="timeline">
+        <article class="step"><span>01</span><h3>Set your goals</h3><p>Define priorities, outcomes, and constraints. VANTA builds your execution map in seconds.</p></article>
+        <article class="step"><span>02</span><h3>Get daily guidance</h3><p>Receive adaptive prompts, planning cues, and motivation tuned to your behavior patterns.</p></article>
+        <article class="step"><span>03</span><h3>Stay accountable</h3><p>Structured check-ins keep commitments visible and unignorable—without pressure theater.</p></article>
+        <article class="step"><span>04</span><h3>Build consistency</h3><p>Momentum compounds as VANTA reinforces wins, recovers misses, and tightens your routine.</p></article>
+      </div>
+    </section>
+
+    <section class="features reveal" id="features">
+      <h2>Core systems built for sustained momentum</h2>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>AI Motivation Engine</h3><p>Calm, contextual prompts that move you from hesitation to action.</p></article>
+        <article class="feature-card"><h3>Smart Accountability</h3><p>Behavior-aware check-ins that track follow-through and close intention gaps.</p></article>
+        <article class="feature-card"><h3>Mentor Mode</h3><p>Strategic, mentorship-style guidance for decisions, execution, and reflection.</p></article>
+        <article class="feature-card"><h3>Focus Sessions</h3><p>Guided deep-work blocks with adaptive pacing and distraction control.</p></article>
+        <article class="feature-card"><h3>Progress Intelligence</h3><p>Live performance insights, streak patterns, and leading indicators.</p></article>
+        <article class="feature-card"><h3>Recovery Support</h3><p>When routines slip, VANTA helps you reset fast—without guilt spirals.</p></article>
+      </div>
+    </section>
+
+    <section class="demo reveal" id="demo">
+      <h2>Live coaching preview</h2>
+      <div class="demo-shell">
+        <div class="demo-tabs">
+          <button class="tab active">Motivation</button>
+          <button class="tab">Accountability</button>
+          <button class="tab">Planning</button>
+          <button class="tab">Reflection</button>
+        </div>
+        <div class="demo-chat">
+          <div class="chat-bubble ai">You said strategic writing matters most. Your highest leverage move now: 18 focused minutes on the outline.</div>
+          <div class="chat-bubble user">I'm low energy and distracted.</div>
+          <div class="chat-bubble ai">Understood. Run a reduced-load sprint: 12 minutes, headphones on, one paragraph only. Momentum first, perfection later.</div>
+          <div class="chat-bubble ai">I’ll check back in 15 minutes and score completion. Want me to block social apps while you work?</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results reveal" id="results">
+      <h2>From scattered to consistent.</h2>
+      <div class="split">
+        <article class="state before">
+          <h3>Before VANTA</h3>
+          <ul>
+            <li>Procrastination loops</li>
+            <li>Unclear priorities</li>
+            <li>Inconsistent follow-through</li>
+          </ul>
+        </article>
+        <article class="state after">
+          <h3>After VANTA</h3>
+          <ul>
+            <li>Decisive daily execution</li>
+            <li>Clear action pathways</li>
+            <li>Reliable momentum cadence</li>
+          </ul>
+          <div class="metrics">
+            <div><strong data-count="91" data-suffix="%">0</strong><span>Task completion rate</span></div>
+            <div><strong data-count="28" data-suffix="d">0</strong><span>Average streak days</span></div>
+            <div><strong data-count="6" data-suffix="h">0</strong><span>Focused hours / day</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="social reveal" id="social-proof">
+      <h2>Trusted by founders, creators, students, and operators</h2>
+      <div class="testimonials">
+        <article class="quote"><p>“VANTA feels like a composed performance coach in my pocket. My execution rate changed within two weeks.”</p><span>— Product Founder</span></article>
+        <article class="quote"><p>“It doesn’t shout motivation. It engineers it. I finally have structure that sticks.”</p><span>— Creator & Educator</span></article>
+        <article class="quote"><p>“The accountability check-ins are surgical. I follow through far more consistently now.”</p><span>— Graduate Student</span></article>
+      </div>
+    </section>
+
+    <section class="pricing reveal" id="pricing">
+      <h2>Choose your momentum system</h2>
+      <div class="toggle-wrap"><span>Monthly</span><label class="switch"><input type="checkbox" id="priceToggle"><span class="slider"></span></label><span>Yearly</span></div>
+      <div class="pricing-grid">
+        <article class="price-card"><h3>Core</h3><p class="price" data-month="19" data-year="15">$19</p><span>/month</span><ul><li>Daily AI motivation</li><li>Basic accountability tracking</li><li>Focus session timer</li></ul><a href="#" class="btn btn-secondary">Get Core</a></article>
+        <article class="price-card featured"><h3>Momentum</h3><p class="price" data-month="39" data-year="29">$39</p><span>/month</span><ul><li>Advanced coaching engine</li><li>Adaptive accountability loops</li><li>Mentor Mode + analytics</li></ul><a href="#" class="btn btn-primary">Start Momentum</a></article>
+        <article class="price-card"><h3>Elite</h3><p class="price" data-month="89" data-year="69">$89</p><span>/month</span><ul><li>Full performance command center</li><li>Strategic AI planning studio</li><li>Priority coaching upgrades</li></ul><a href="#" class="btn btn-secondary">Get Elite</a></article>
+      </div>
+    </section>
+
+    <section class="final-cta reveal" id="cta">
+      <h2>The version of you that follows through starts now.</h2>
+      <p>Enter a sharper operating rhythm with AI coaching built for real execution.</p>
+      <a href="#pricing" class="btn btn-primary">Activate VANTA</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
